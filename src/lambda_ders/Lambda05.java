@@ -87,6 +87,7 @@ public class Lambda05 {
     public static OptionalInt faktoriyel(int x) {
         return IntStream.rangeClosed(1, x).
                 reduce(Math::multiplyExact);
+                //reduce(1,(t,u)->t*u);
     }
 
     //TASK 08 --> Istenilen bir sayinin  x. kuvvetini ekrana yazdiran programi yaziniz
